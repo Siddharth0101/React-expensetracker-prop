@@ -6,7 +6,7 @@ import React, { useState } from "react";
 function ExpenseItem(props) {
   const [title, setTitle] = useState(props.title);
   function clickHandler() {
-    setTitle("updated");
+    setTitle("updated!");
   }
   return (
     <Card className="expense-item">
